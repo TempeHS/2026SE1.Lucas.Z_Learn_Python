@@ -1,0 +1,5 @@
+A = input("file name?")
+if A.endswith(".jpg",".jpeg") :
+    print(A.replace(".jpeg","photo/jpg").replace(".jpg","photo/jpg"))
+else:
+    print("application/octet-stream")
