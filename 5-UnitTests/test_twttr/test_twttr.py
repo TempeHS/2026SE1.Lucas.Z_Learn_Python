@@ -1,2 +1,2 @@
 import twttr
-assert twttr.shorten(twitter)=="twttr"
+assert twttr.shorten("twitter")=="twttr"
